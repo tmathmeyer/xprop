@@ -43,7 +43,7 @@ from The Open Group.
 #include "dsimple.h"
 
 /*
- * Just_display: A group of routines designed to make the writting of simple
+ * Just_display: A group of routines designed to make the writing of simple
  *               X11 applications which open a display but do not open
  *               any windows much faster and easier.  Unless a routine says
  *               otherwise, it may be assumed to require program_name, dpy,

@@ -267,7 +267,7 @@ Date:   Thu Dec 6 05:30:43 2007 -0500
     WM_STATE set.
     
     In a WM using virtual roots (e.g. enlightenment, desks other than first) this
-    fails beacuse the top-level window is a virtual root, and XmuClientWindow seems
+    fails because the top-level window is a virtual root, and XmuClientWindow seems
     to find the first client having WM_STATE set, which only by coincidence will be
     the one the user intended to select (i.e. containing the pointer).
     
